@@ -1,4 +1,4 @@
-"use client";
+"use client";//use client must be required
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
