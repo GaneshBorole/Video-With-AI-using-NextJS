@@ -28,6 +28,7 @@ export async function POST(request: NextRequest) {
       password,
     });
 
+    
     return NextResponse.json(
       { message: "User registered successfully" },
       { status: 400 }
